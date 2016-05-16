@@ -16,6 +16,7 @@ alfresco.url=http://localhost:8080/alfresco
 alfresco.user=admin
 
 alfresco.password=alfresco
+
 ------------------------------------------
 
 To execute the program you can use i.e:
