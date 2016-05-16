@@ -10,7 +10,7 @@ Clone the project and configure the batch by editing the `conf.properties` file.
 
 To execute the program you can use i.e:
 
-	nohup /opt/alfresco/java/bin/java -cp  "MassiveDelete-1.0.jar:$(find lib/ -name "*.jar" | sed -e 's,^,:,g' | tr -d '\n')" MassiveDelete result.txt  > result.log 2>&1 &
+	nohup /opt/alfresco/java/bin/java -cp  "MassiveDelete-1.0.jar:$(find lib/ -name "*.jar" | sed -e 's,^,:,g' | tr -d '\n')" MassiveDelete UUID_LIST.txt &
     
 # Author
 Christian Tiralosi
