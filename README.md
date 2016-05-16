@@ -9,7 +9,6 @@ SELECT nodes.UUID FROM alf_node nodes, alf_qname names WHERE nodes.type_qname_id
 Clone the project and configure the batch by editing the `conf.properties` file. Then run `mvn package`.
 
 You can provide an external 'conf.properties' file; the configuration file needs to have the following entries:
-------------------------------------------
 
 alfresco.url=http://localhost:8080/alfresco
 
@@ -17,7 +16,6 @@ alfresco.user=admin
 
 alfresco.password=alfresco
 
-------------------------------------------
 
 To execute the program you can use i.e:
 
